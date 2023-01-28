@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap'); 
+ 
+
+ @import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
+
+ @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.main-nav{
+    background-color: #2065ae;
+   margin: 0;
+    display: flex;
+     justify-content: space-between;
+     margin: 0;
+     padding: 0;
+     height: 650px;
+    
+}
+.brand-icon img{
+
+    margin-left: 2rem;
+    height: 7em;
+}
+ 
+#ahov:hover{
+    background-color: rgb(250, 250, 250.1);
+    border-radius: 5px;
+    color: rgb(35, 149, 237)
+}
+.pro-logo{
+    
+    top: 20rem;
+    width: 65%;
+    min-width: 350px;
+
+}
+.pro-name{
+   margin-top: 10rem;
+    color: rgb(255, 255, 255);
+    font-family: 'Rubik Vinyl', cursive;
+    text-shadow: 2px 2px 2px #f1f1f1;
+}
+.pro-name2{
+    /* margin-top: 10rem; */
+    color: rgb(255, 255, 255);
+    font-family: 'Moon Dance', cursive;
+}
+.pro{
+    top: 10rem;
+    position: absolute;
+
+}
+.card-img-top{
+    width: 100px;
+    height: 250px;
+    transition: ease-in-out .3s;
+}
+
+.card-img-top:hover{
+    overflow: hidden;
+    transform: scale(1.1);
+    transition: ease-in-out .3s;
+    background-color: #ffffff00;
+    /* color: rgb(0, 0, 0); */
+    cursor: pointer;
+}
+.price{
+    color: rgb(7, 192, 19);
+}
+@media all and (max-width: 800px) {
+
+    .pro-name{
+        margin-top: 5rem;
+    }
+    .card-img-top{
+        width: 100px;
+        height: 300px;
+    }
+
+    .roww{
+    margin-top: 13rem;
+    }
+    .hideimg{
+        display: none;
+    }
+     .description p{
+        
+        min-width: 200px;
+    } 
+    .description{
+        top: 50px;
+        min-width: 300px;
+    } 
+    #Tasty{
+        
+        display: flex;
+        flex-direction: column-reverse;
+    }
+   .purity{
+    margin-top: 20px;
+   }
+   .tasty{
+    margin-top: 20px;
+   }
+  
+    
+}
+
+
+#btn-back{
+    color: rgb(255, 255, 255);
+    background-color: rgb(93, 93, 95);
+  }
+  #btn-back:hover{
+    background-color: rgb(72, 72, 73);
+  }
+  #fnt span{
+    font-size: .9rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+  }
+
+  .foot{
+    margin-bottom: -45px;
+    
+    }
+
+.curve{
+
+}
+.description{
+    
+
+    color:  #2065ae;
+   
+
+}
+.description p{
+    color: #9B9B9B;
+}
+.description h2{
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.251);
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.roww{
+    justify-content: center;
+}
+
+.rowimg{
+    padding-left: 200px;
+    height: 25em;
+}
+
+.roww p{
+    font-size: 18px;
+}
+.roww ul{
+    margin: 0;
+  padding: 0;
+    /* text-align: left;
+    justify-content: center;
+    align-items: center; */
+  list-style: none;
+}
+.purity{
+    
+    font-family: 'Kaushan Script', cursive;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   
+}
+.tasty{
+    
+    font-family: 'Kaushan Script', cursive;
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.hideimg img{
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.51);
+}
+.tasty h2{
+    color:  #2065ae;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.408);
+    font-size:42px ;
+    margin-bottom: 15px;
+}
+.purity h2{
+    color:  #2065ae;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.408);
+    font-size:42px ;
+    margin-bottom: 15px;
+}
+.tasty p{
+    color: #9B9B9B;
+ font-size: 19px;
+}
+.purity p{
+    color: #9B9B9B;
+    font-size: 19px;
+}
+.purityimg{
+   width: 100%; 
+   box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.51);
+}
+.tastyimg{
+    width: 100%; 
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.51);
+}
+.roww2{
+    width: 100vw;
+}
+#pageloader{
+    width: 100vw;
+    height: 100vh;
+    background-color:  #2065ae;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loader{
+    width: 150px;
+}
+.row{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
